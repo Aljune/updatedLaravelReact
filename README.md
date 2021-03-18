@@ -1,43 +1,41 @@
-# Laravel-React-Crud-Posts
-A crud operation web application where you can Create, Retrieve, Update, Delete Posts. Backend in Laravel PHP framework and Frontend in React JS framework.
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-## Thumbnail
-   <img src="https://miro.medium.com/max/700/1*CiWgRx5O9ygMWnSJx8FNng.png" />
-   
-## Demo
-   <img src="https://miro.medium.com/max/640/1*-ToT2b2BDsX70h8L4e12WA.gif" />
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-## Features
+## About Laravel
 
-    1. Laravel 8 Framework
-    2. A Complete CRUD Operation(Create, Retrieve, Update, Delete)
-    3. Fully Format Time Stamp of Every Post.
-    4. A New Post always comes on top.
-    5. A Soft UI Design
-    6. Shows Greeting Message according to time.
-    7. Responsive For All Devices!!
-    8. Adding authentication soon
-    9. React js Fronend
-    10. Axios
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-### Requirements
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-    1. PHP version upto 7.4   
-    2. Laravel version  8.0   
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-### Installation
+## Learning Laravel
 
-    1. Clone the project using git clone   
-    2. Copy a fresh .env file from laravel github    
-    3. Update .env file by adding database information like DB_HOST.  
-    4. Go to project root folder.Open git bash or terminal and run  composer install       
-    5. Run php artisan key:generate in the terminal    
-    6. Run php artisan migrate  
-    7. npm install
-    8. npm run dev
-    9. php artisan serve
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-## Queries & More Content
-[Medium](https://medium.com/@vikalpkaushik99)
-[LinkedIn](https://www.linkedin.com/in/vikalp-kaushik-99966a1ab)
-[Instagram](https://www.instagram.com/vikalp._.kaushik)
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+
+
+## Setup and Installation
+
+- `git clone`.
+- `create a .env file copy content from .env.example and update the values`.
+- `composer install && composer update`.
+- `php artisan migrate:refresh`.
+- `npm install && npm run dev`.
+- `php artisan serve --port=8000`.
+- `npm run watch`.
+<br /> 0pen browser and check the following address http://127.0.0.1:8000
+
